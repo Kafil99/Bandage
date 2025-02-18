@@ -1,0 +1,44 @@
+{
+  "node": {
+    "7f2ef0871b2bdef1340a4eea84d1083e9bebd9b358": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CHackathon-3-SaimaKhala%5C%5Cnode_modules%5C%5Cnext-sanity%5C%5Cdist%5C%5Cvisual-editing%5C%5Cserver-actions.js%22%2C%5B%5B%227f2ef0871b2bdef1340a4eea84d1083e9bebd9b358%22%2C%22revalidateRootLayout%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/details/[id]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CHackathon-3-SaimaKhala%5C%5Cnode_modules%5C%5C%40sanity%5C%5Cnext-loader%5C%5Cdist%5C%5Cserver-actions.js%22%2C%5B%5B%227f0584b263c09da6e3f953f0bcb3888939844cf919%22%2C%22setPerspectiveCookie%22%5D%2C%5B%227f49cf6638034e263b96cc9a6bbfee7abcbfd9615f%22%2C%22revalidateSyncTags%22%5D%5D%5D%2C%5B%22E%3A%5C%5CHackathon-3-SaimaKhala%5C%5Cnode_modules%5C%5Cnext-sanity%5C%5Cdist%5C%5Cvisual-editing%5C%5Cserver-actions.js%22%2C%5B%5B%227f2ef0871b2bdef1340a4eea84d1083e9bebd9b358%22%2C%22revalidateRootLayout%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/details/[id]/page": "action-browser"
+      }
+    },
+    "7f0584b263c09da6e3f953f0bcb3888939844cf919": {
+      "workers": {
+        "app/details/[id]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CHackathon-3-SaimaKhala%5C%5Cnode_modules%5C%5C%40sanity%5C%5Cnext-loader%5C%5Cdist%5C%5Cserver-actions.js%22%2C%5B%5B%227f0584b263c09da6e3f953f0bcb3888939844cf919%22%2C%22setPerspectiveCookie%22%5D%2C%5B%227f49cf6638034e263b96cc9a6bbfee7abcbfd9615f%22%2C%22revalidateSyncTags%22%5D%5D%5D%2C%5B%22E%3A%5C%5CHackathon-3-SaimaKhala%5C%5Cnode_modules%5C%5Cnext-sanity%5C%5Cdist%5C%5Cvisual-editing%5C%5Cserver-actions.js%22%2C%5B%5B%227f2ef0871b2bdef1340a4eea84d1083e9bebd9b358%22%2C%22revalidateRootLayout%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/details/[id]/page": "action-browser"
+      }
+    },
+    "7f49cf6638034e263b96cc9a6bbfee7abcbfd9615f": {
+      "workers": {
+        "app/details/[id]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CHackathon-3-SaimaKhala%5C%5Cnode_modules%5C%5C%40sanity%5C%5Cnext-loader%5C%5Cdist%5C%5Cserver-actions.js%22%2C%5B%5B%227f0584b263c09da6e3f953f0bcb3888939844cf919%22%2C%22setPerspectiveCookie%22%5D%2C%5B%227f49cf6638034e263b96cc9a6bbfee7abcbfd9615f%22%2C%22revalidateSyncTags%22%5D%5D%5D%2C%5B%22E%3A%5C%5CHackathon-3-SaimaKhala%5C%5Cnode_modules%5C%5Cnext-sanity%5C%5Cdist%5C%5Cvisual-editing%5C%5Cserver-actions.js%22%2C%5B%5B%227f2ef0871b2bdef1340a4eea84d1083e9bebd9b358%22%2C%22revalidateRootLayout%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/details/[id]/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "oFGuVcxbKUVjwNDkgXHFcVij09MDfSnBbsCPD4pxZ6c="
+}
