@@ -34,8 +34,15 @@ export async function generateStaticParams() {
     .map((product) => ({ id: product._id })); // Using _id instead of slug
 }
 
+// Define the type for the params object
+interface PageProps {
+  params: {
+    id: string;
+  };
+}
+
 // Details page component
-export default async function ProductPage({ params }: { params: { id: string } }) {
+export default async function ProductPage({ params }: PageProps) {
   const product = await productDetails(params.id); // Pass only the ID
   if (!product) return notFound();
 
